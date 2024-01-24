@@ -1,14 +1,14 @@
 terraform {
 
   cloud {
-    organization = "devops-project-org"
+    organization = "meerim"
 
     workspaces {
-      name = "devops-project-workspace"
+      name = "devops_project"
     }
   }
 }
 
 provider "aws" {
-  region = "us-east-1"  
+  region = "us-east-2"  
 }
